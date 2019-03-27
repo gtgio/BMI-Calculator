@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Giovanni Marteli">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<title>BMI calculator Ajax 2</title>
+</head>
+	<body>
+		<div id="input" style="margin-left: 10%; margin-right: 10%; margin-top: 20px;">
+			<h3 id="titel">Bereken je BMI</h3>
+			<form id="invoer" action="index.php" method="get">
+				<table>
+					<tr>
+						 <p class="geslachttitel">
+							 Geslacht:
+
+						<br><br></p>
+							<input class="geslacht1" name="gender" type="radio" value="Man">Man</input><br><br />
+							<input class="geslacht2" name="gender" type="radio" value="Vrouw">Vrouw</input><br />
+							<br>
+					</tr>
+					<tr>
+							<p class="agetitel"> Uw leeftijd:
+						<td>
+							<input class="typ" type="text" name="leeftijd">
+							<input class="typ" type="text" name="gewicht">
+							<input class="typ" type="text" name="lengte">
+							<br>
+						</td>
+					</tr>
+				</p>
+					<tr>
+							<p class="gewichttitel"> Uw gewicht in kg:</p>
+						<td>
+							<!-- <input class="typ" type="text" name="gewicht"> -->
+							<br>
+						</td>
+					</tr>
+					<tr>
+							<p class="lengtetitel">Uw lengte in cm:</p>
+						<td>
+							<!-- <input type="text" name="lengte" id="lengte"> -->
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br>
+							<button class="calculate">Bereken</button>
+						</td>
+					</tr>
+
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

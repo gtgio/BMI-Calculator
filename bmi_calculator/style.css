@@ -1,0 +1,144 @@
+* {
+	font-family: italic;
+}
+
+body {
+	margin: 0;
+}
+
+/* header {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+} */
+
+/* ul {
+	;list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 15%;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+} */
+
+li a {
+	display: block;
+	color: #000;
+	font-size: 20px;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #407de1;
+	color: white;
+}
+
+li a:hover:not(.active) {
+	background-color: #333;
+	color: white;
+}
+
+#invoer {
+	text-align: -webkit-center;
+	border: 2px solid black;
+	margin-left: 230px;
+  margin-right: 230px;
+	margin-top: -21px;
+	padding: 20px;
+	background-color: white;
+}
+
+#titel {
+	text-align: -webkit-center;
+	margin-top: 50px;
+	border: 2px solid black;
+	background-color: red;
+	margin-left: 230px;
+  margin-right: 230px;
+	color: white;
+	padding: 7px;
+}
+
+button.calculate {
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: #999ca0;
+	color: white;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+	margin-left: 115px;
+}
+button.calculate:hover {
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+}
+
+.geslachttitel {
+	margin-left: -530px;
+	font-weight: bold;
+}
+
+.geslacht1 {
+	margin-left: -556px;
+}
+
+.geslacht2 {
+ margin-left: -540px;
+}
+
+.agetitel {
+	margin-top: -126px;
+    margin-left: -200px;
+		font-weight: bold;
+}
+
+.gewichttitel {
+	margin-left: 135px;
+  margin-top: -34px;
+	font-weight: bold;
+}
+
+.lengtetitel {
+	margin-left: 490px;
+  margin-top: -34px;
+	font-weight: bold;
+}
+
+.typ {
+	width: 40px;
+    height: 25px;
+    margin-left: 140px;
+    margin-right: -20px;
+}
+
+.resultaten {
+	font-weight: bold;
+}
+
+a.reset {
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: #999ca0;
+	color: white;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+}
+a.reset:hover {
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+}
